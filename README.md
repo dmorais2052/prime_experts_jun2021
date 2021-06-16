@@ -41,6 +41,11 @@ clicar no Acerto
 Verificar no rodapé a atualização do Comit
 >>>Enviar para o servidor
 
+git add .
+git status (vai ficar verde a alteração)
+
+get push
+
 Passo 7: no prompt de CMD username no GitHub
 Open the command line.
 
@@ -50,4 +55,4 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address:
 git config --global user.email "MY_NAME@example.com"
 
-outra
+
