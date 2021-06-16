@@ -41,10 +41,11 @@ clicar no Acerto
 Verificar no rodapé a atualização do Comit
 >>>Enviar para o servidor
 
-git add .
-git status (vai ficar verde a alteração)
-
-get push
+Como subir uma alteração no GitHub
+1º faz uma modificação no arquivo la no visual code
+2º git add . (para adicionar as modificações)
+3º git commit -m "Uma mensagem explicativa" (para efetivar a alteração)
+4º git push
 
 Passo 7: no prompt de CMD username no GitHub
 Open the command line.
@@ -55,4 +56,4 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address:
 git config --global user.email "MY_NAME@example.com"
 
-
+Passo 8
