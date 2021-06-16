@@ -24,3 +24,30 @@ cd (colar a pasta que eu desejo)
 git clone (link do github)
 
 Será clonada a pasta do Git
+git --version
+
+Passo 6: Fazer alterações no README dentro do Visual Studio Code e salvar
+No prompt de comando:
+C:\Users\alexs\OneDrive\Documentos\PrimeExperts\prime_experts_jun2021>git status
+
+Verificar as alterações do README no prompt
+
+Voltar no Visual e clicar no "+"
+Staged Changes
+
+Fazer um COMIT
+descrição: Atualizei o meu README
+clicar no Acerto
+Verificar no rodapé a atualização do Comit
+>>>Enviar para o servidor
+
+Passo 7: no prompt de CMD username no GitHub
+Open the command line.
+
+Set your username:
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+Set your email address:
+git config --global user.email "MY_NAME@example.com"
+
+outra
