@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210616 16:37:05.622" rpa="false" schemaversion="2">
+<suite id="s1" name="If" source="C:\Users\alexs\OneDrive\Documentos\PrimeExperts\prime_experts_jun2021\if\if.robot">
+<test id="s1-t1" name="Teste de IFs">
+<kw name="Imprimir apenas país Brasil">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.664" endtime="20210616 16:37:05.666"/>
+</kw>
+<for flavor="IN">
+<var>${pais}</var>
+<value>@{PAISES}</value>
+<iter>
+<var name="${pais}">Argentina</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.667" endtime="20210616 16:37:05.667"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.667" endtime="20210616 16:37:05.667"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.668" endtime="20210616 16:37:05.669"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.668" endtime="20210616 16:37:05.669"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.666" endtime="20210616 16:37:05.669"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.666" endtime="20210616 16:37:05.669"/>
+</iter>
+<iter>
+<var name="${pais}">Chile</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.669" endtime="20210616 16:37:05.670"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.669" endtime="20210616 16:37:05.670"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.670" endtime="20210616 16:37:05.670"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.670" endtime="20210616 16:37:05.670"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.669" endtime="20210616 16:37:05.670"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.669" endtime="20210616 16:37:05.671"/>
+</iter>
+<iter>
+<var name="${pais}">Brasil</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.671" endtime="20210616 16:37:05.672"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.671" endtime="20210616 16:37:05.672"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.672" endtime="20210616 16:37:05.673"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.672" endtime="20210616 16:37:05.673"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.671" endtime="20210616 16:37:05.673"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.671" endtime="20210616 16:37:05.673"/>
+</iter>
+<iter>
+<var name="${pais}">Uruguai</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.674" endtime="20210616 16:37:05.674"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.674" endtime="20210616 16:37:05.674"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.674" endtime="20210616 16:37:05.675"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.674" endtime="20210616 16:37:05.675"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.674" endtime="20210616 16:37:05.675"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.673" endtime="20210616 16:37:05.675"/>
+</iter>
+<iter>
+<var name="${pais}">Brasil</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.675" endtime="20210616 16:37:05.676"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.675" endtime="20210616 16:37:05.676"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.676" endtime="20210616 16:37:05.676"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.676" endtime="20210616 16:37:05.677"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.675" endtime="20210616 16:37:05.677"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.675" endtime="20210616 16:37:05.677"/>
+</iter>
+<iter>
+<var name="${pais}">Chile</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.677" endtime="20210616 16:37:05.677"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.677" endtime="20210616 16:37:05.677"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.677" endtime="20210616 16:37:05.678"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.677" endtime="20210616 16:37:05.678"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.677" endtime="20210616 16:37:05.678"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.677" endtime="20210616 16:37:05.678"/>
+</iter>
+<iter>
+<var name="${pais}">Brasil</var>
+<if>
+<branch type="IF" condition="'${pais}' == 'Brasil'">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opa!! Deu Brasil!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210616 16:37:05.679" endtime="20210616 16:37:05.679"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.679" endtime="20210616 16:37:05.679"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ahhh! ${pais} não é Brasil!!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210616 16:37:05.680" endtime="20210616 16:37:05.680"/>
+</kw>
+<status status="NOT RUN" starttime="20210616 16:37:05.680" endtime="20210616 16:37:05.680"/>
+</branch>
+<status status="PASS" starttime="20210616 16:37:05.679" endtime="20210616 16:37:05.680"/>
+</if>
+<status status="PASS" starttime="20210616 16:37:05.678" endtime="20210616 16:37:05.680"/>
+</iter>
+<status status="PASS" starttime="20210616 16:37:05.666" endtime="20210616 16:37:05.680"/>
+</for>
+<status status="PASS" starttime="20210616 16:37:05.664" endtime="20210616 16:37:05.680"/>
+</kw>
+<status status="PASS" starttime="20210616 16:37:05.662" endtime="20210616 16:37:05.681"/>
+</test>
+<doc>Teste para IFs - Tomada de Decisões!</doc>
+<status status="PASS" starttime="20210616 16:37:05.632" endtime="20210616 16:37:05.684"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="If">If</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
