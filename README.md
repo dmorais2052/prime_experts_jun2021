@@ -56,4 +56,4 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address:
 git config --global user.email "MY_NAME@example.com"
 
-Passo 8
+Variáveis declaradas na seção *** Variables *** tem o espaço GLOBAL
